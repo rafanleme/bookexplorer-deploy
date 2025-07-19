@@ -40,7 +40,7 @@ export default function BookListPage() {
           <Typography variant="h5">📚 Livros</Typography>
           <Stack direction="row" spacing={1}>
             <Button variant="outlined" onClick={() => navigate("/liked")}>
-              Ver Curtidos
+              Ver Livros Curtidos
             </Button>
             <Button variant="contained" onClick={() => setOpen(true)}>
               Adicionar Livro
